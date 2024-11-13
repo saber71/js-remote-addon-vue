@@ -6,15 +6,14 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "watch": "vite build --watch",
     "test": "vitest run"
   },
   "devDependencies": {
     "@heraclius/external-deps-plugin": "github:saber71/vite-external-deps-plugin",
+    "@heraclius/remote": "github:saber71/js-remote",
     "@types/node": "^22.9.0",
-    "@vitejs/plugin-vue": "^5.1.5",
-    "@vitejs/plugin-vue-jsx": "^4.1.0",
     "unplugin-swc": "^1.5.1",
     "vite": "^5.4.10",
     "vite-plugin-dts": "^4.3.0",
@@ -27,5 +26,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "peerDependencies": {
+    "@heraclius/remote": "github:saber71/js-remote",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  }
 }
