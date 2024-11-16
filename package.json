@@ -15,10 +15,10 @@
     "@heraclius/remote": "github:saber71/js-remote",
     "@types/node": "^22.9.0",
     "unplugin-swc": "^1.5.1",
-    "vite": "^5.4.10",
+    "vite": "^5.4.11",
     "vite-plugin-dts": "^4.3.0",
-    "vitest": "^2.1.4",
-    "vue": "^3.5.12",
+    "vitest": "^2.1.5",
+    "vue": "^3.5.13",
     "vue-router": "^4.4.5"
   },
   "publishConfig": {
